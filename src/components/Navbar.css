@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #28282B;
+    opacity: 0.9;
+
+  }
+  
+  .navbar-brand {
+    /* font-weight: bold; */
+    font-family: 'Luminari', fantasy;
+  font-size: 10rem; /* adjust the font size to your liking */
+  color: #ffffff; 
+  }
+  .navbar-brand span {
+    color: #18cf74; /* set the color of the B letter to green */
+    font-weight: bold; /* make the B letter bold to stand out */
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    background-color: #28a745;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+  
+  .btn:hover {
+    background-color: #28a745;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+  }
+  .cart-link {
+    position: relative;
+    z-index: 800; /* Set a higher z-index than the navbar */
+  }
+  
